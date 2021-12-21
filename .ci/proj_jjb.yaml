@@ -56,7 +56,8 @@
         scm:
             - git:
                 url: "{jjb_git}"
-                credentials-id: '8dd5412b-9b3e-4110-9e0c-4363b3dfcf66'
+                credentials-id: 'a152b63b-62f6-4b73-8d69-35e5c2762513'
+                
                 branches: ['$sha1']
                 shallow-clone: true
                 depth: 10
